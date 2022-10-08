@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Assignments</title>
+    <style>
+      
+        /* nav {
+            display: flex;
+        } */
+
+        li {
+            line-height: 50px;
+            color:wheat;
+        }
+
+        .sidebar {
+            width: 30%;
+            background-color: rgba(0,0,0,.2);
+            border: 1px solid black;
+        }
+
+        .content_div {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.789);
+        }
+
+        .output_frame {
+            width: 100%;
+            background-color: rgba(0,0,0,.3);
+        }
+
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-light">
+
+<div class="container-fluid">
+  <h1 style="color:white;text-align:center;">Assignment</h1>
+</div>
+
+</nav>
+
+
+    <nav class="navbar sticky-top navbar-expand-xl bg-dark navbar-dark">
+        <div class="container-fluid">
+     
+        <div class="sidebar">
+            <ul>
+                <li><a href="factorial.html" target="output_frame">Factorial</a></li>
+                <li><a href="fibonacci.html" target="output_frame">Fibonacci</a></li>
+                <li><a href="prime.html" target="output_frame">Prime</a></li>
+                <li><a href="palindrom.html" target="output_frame">Palindrom</a></li>
+                <!-- <li><a href="#">Anangram</a></li> -->
+                <li><a href="reverse.html" target="output_frame">Reverse Of Word</a></li>
+                <li><a href="vowels.html" target="output_frame">Remove Vowels</a></li>
+                <li><a href="longword.html" target="output_frame">Longest Word</a></li>
+                <li><a href="duplicate.html" target="output_frame">Duplicate Elements in Array</a></li>
+                <li><a href="greater.html" target="output_frame">Greater Number From Array</a></li>
+                <li><a href="unique.html" target="output_frame">Unique Number From Array</a></li>
+            </ul>
+        </div>
+        <div class="content_div">
+            <iframe name="output_frame" class="output_frame"></iframe>
+        </div>
+    </div>
+    </nav>
+</body>
+
+</html>
